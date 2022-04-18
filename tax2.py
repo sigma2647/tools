@@ -117,7 +117,9 @@ for i in pdf_lists:
 
 print('发票重命名完成')
 
+exit()
 
+## 以下部分为计算税点的代码
 # %% 
 import pandas as pd
 pdf_lists = sorted(glob.glob("*.pdf"))
